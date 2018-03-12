@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<body>
+
+     <input type="textarea" id="focus_id">
+	 
+	 <script>
+	    
+		var v1=document.getElementById("focus_id");
+		v1.onfocus=function()
+		{
+		  window.alert('获得输入焦点');
+		  v1.onfocus=null;
+		}
+	 
+	</script>
+	 
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<title>测试鼠标移出链接事件,mouseout</title>
+<body>
+<tr align="center">
+    <td width="300" height="300">这是百度链接</td>
+	<a href="https://www.baidu.com/" id="mouseout_id">https://www.baidu.com/</a>
+</tr>
+    
+	
+	<script>
+	  
+	     var v1=document.getElementById("mouseout_id");
+		 v1.onmouseout=function()
+		 {
+		   window.alert('捕获到鼠标移出该链接了');
+		 }
+		 
+	
+	</script>
+	
+</body>
+</html>
